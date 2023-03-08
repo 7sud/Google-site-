@@ -1,0 +1,139 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    }
+
+.main {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-100%);
+}
+.searchb {
+    width:500px;
+    height:45px;
+    position:absolute;
+    transform:translate(-10%,50%);
+}
+input[type="text"] {
+    position: absolute;
+    width:100%;
+    height: 100%;
+    border: 1px solid #d5d4da;
+    left:0;
+    border-radius:50px;
+    padding:0 40px 0 45px;
+    outline:none;
+    font-size:16px;
+    font-family:noto sans;
+    box-shadow:0 2px 10px -7px #000;
+}
+
+.searchicon {
+    position: absolute;
+    left:18px;
+    font-size:21px;
+    top:13px;
+    z-index:1 ;
+
+}
+
+.searchicon img {
+    width:16px
+}
+
+.mic {
+    position: absolute;
+    width:19px;
+    right:17px;
+    top:13px;
+}
+
+.sbutton  {
+    position:relative;
+    top:100px;
+    text-align:center;
+}
+
+input[type="button"] {
+    background-color:#ebe8e8;
+    border:none;
+    padding:8px 20px;
+    margin:10px;
+    color:#4e4d4d;
+    border-radius:5px;
+    outline:none;
+}
+
+input[type="button"]:hover {
+     background:#ede8e8;
+     color:#000;
+     box-shadow:0 0 2px #888888;
+}
+nav {
+      float:right;
+      font-family:Arial;
+      font-size:17px;
+      padding:15px;
+}
+
+.navtext:hover {
+    text-decoration: underline;
+}
+.dots,.Avatar{
+    
+    width:35px;
+    cursor: pointer;
+}
+.Avatar{
+    border-radius:50%;
+    margin:10px 20px 0 0;
+}
+.navtext {
+    color:#444;
+    text-decoration:none;
+    position:relative;
+    top:-12px;
+    margin:5px
+}
+footer {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-color:#f2f2f2;
+   
+}
+footer .row.row2 a:hover {
+    text-decoration: underline;
+}
+footer .row {
+    padding:15px 25px;
+    border-bottom:1px solid #66292941;
+    font-family:noto sans;
+    font-size:14px;
+    color:#444;
+
+}
+
+footer .row2 {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+footer .row.row2 ul {
+    display:flex;
+}
+footer .row.row2 ul li {
+    list-style:none;
+}
+
+footer .row.row2 ul li a {
+    text-decoration:none;
+    font-size:14px;
+    font-family:noto sans;
+    color:#5f6368;
+    margin-right:25px;
+}
